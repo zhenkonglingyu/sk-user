@@ -1,0 +1,476 @@
+body {
+    overflow: hidden;
+}
+
+p {
+    margin: 0px;
+}
+
+.paddingTB15{
+    padding:15px 0px;
+}
+
+.btnbacksuccess {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.nav-link {
+    margin-bottom: 0;
+}
+
+.breadcrumb {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.login-image-bg {
+    background: url('../img/login.jpg') no-repeat bottom;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+.warningColor {
+    color: #e4393c;
+    font-weight: bold;
+}
+
+.headImg {
+    max-width: none;
+}
+
+.changeSort:hover {
+    background: #ededed;
+}
+
+/* 滚动条样式 */
+
+.heightLimit {
+    height: 23rem;
+}
+
+.halfHeightLimit{
+    height: 184px;
+}
+
+.scrollStyle::-webkit-scrollbar {
+    width: 10px;
+    margin-left: -10px;
+    -webkit-appearance: none;
+}
+
+.scrollStyle::-webkit-scrollbar {
+    position: absolute;
+    width: 10px;
+    margin-left: -10px;
+    -webkit-appearance: none;
+}
+
+.scrollStyle::-webkit-scrollbar-track {
+    background-color: white;
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+}
+
+.scrollStyle::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #e6e6e6;
+    background-clip: content-box;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px 2px;
+}
+
+
+/* 自定义表单 */
+
+.borderSelfTable {
+    border: 1px solid #eee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.marginTable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.marginSelfTable {
+    margin-right: 6px;
+}
+
+.tableSelfcenter {
+    margin: 0 auto;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #eee;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.tableTitle {
+    padding-top: 7px;
+    padding-right: 0px;
+    font-weight: bold;
+}
+
+.backRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.table>.changeBgc>tr:hover {
+    background: #eee;
+}
+
+
+/*detailList  */
+
+.marginTop {
+    margin-bottom: 20px;
+}
+
+.scrollStyle::-webkit-scrollbar {
+    width: 10px;
+    margin-left: -10px;
+    -webkit-appearance: none;
+}
+
+.scrollStyle::-webkit-scrollbar {
+    position: absolute;
+    width: 10px;
+    margin-left: -10px;
+    -webkit-appearance: none;
+}
+
+.scrollStyle::-webkit-scrollbar-track {
+    background-color: white;
+    border-right: 1px solid #f2f2f2;
+    border-left: 1px solid #f2f2f2;
+}
+
+.scrollStyle::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: #e6e6e6;
+    background-clip: content-box;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1px 2px;
+}
+
+
+/*详情表格  */
+
+.panel-default {
+    border-color: #eee;
+    border-top-width: 3px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+}
+
+.panel-heading {
+    border-color: #eee;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background: #f5f5f5;
+    padding: 10px 15px;
+    color: #333;
+}
+
+.panel-body {
+    padding: 15px;
+    background: #fff;
+}
+
+
+/*many kinds of search*/
+
+.classSearchMargin {
+    margin-bottom: 10px;
+}
+
+.classSearchIcon {
+    width: 15px;
+    height: 15px;
+}
+
+
+/*list changecolor*/
+
+.changeColor:hover {
+    background: #eee;
+}
+
+
+/*loading screen*/
+
+.loading-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    text-align: center;
+    color: #fff;
+}
+
+.loading-screen .loading-wrapper {
+    width: 100%;
+    height: 100%;
+    background: #1abc9c
+}
+
+.loading-screen .loading-content {
+    height: 200px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -25%;
+}
+
+.loading-content {
+    text-align: center;
+}
+
+.loading-screen .rectangle-bounce div {
+    background-color: #fff;
+}
+
+.loading-screen .loading-content .loading-logo, .loading-screen .loading-content .loading-logo .rectangle-bounce {
+    height: 100px;
+}
+
+.rectangle-bounce {
+    text-align: center;
+    min-height: 100px;
+    margin: 10px auto;
+}
+
+.rectangle-bounce div {
+    height: 100%;
+    min-height: 100px;
+    width: 7px;
+    margin: 0 3px 0 0;
+    background-color: #aaa;
+    display: inline-block;
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out
+}
+
+.rectangle-bounce .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s
+}
+
+.rectangle-bounce .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s
+}
+
+.rectangle-bounce .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s
+}
+
+.rectangle-bounce .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s
+}
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4)
+    }
+    20% {
+        -webkit-transform: scaleY(1)
+    }
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4)
+    }
+    20% {
+        transform: scaleY(1);
+        -webkit-transform: scaleY(1)
+    }
+}
+
+
+/*loading end*/
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link > i {
+    margin-right: 5px;
+}
+
+.nav-link > span {
+    margin-left: 5px;
+}
+
+.empty {
+    padding: 20px;
+    color: #aaa;
+}
+
+.empty .icon {
+    font-size: 4em;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+
+/*imgUpload*/
+
+.imgBorder {
+    width: 100%;
+    height: auto;
+    border: 1px dashed gray;
+    border-radius: 10px;
+}
+
+.chooseImg {
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: bold;
+}
+
+.fontImg {
+    padding-top: 40px;
+    color: gray;
+}
+
+.limitSize {
+    width: 200px;
+    height: 200px;
+}
+
+
+/*label  */
+
+.fontTitle {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/*checkbox multiple*/
+
+.c-checkbox input {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* 上传控件 */
+
+input[type=range] {
+    -webkit-appearance: none;
+    /*清除系统默认样式*/
+    background: -webkit-linear-gradient(#EDEDED, #EDEDED) no-repeat, #EDEDED;
+    /*设置左边颜色为#61bd12，右边颜色为#ddd*/
+    background-size: 75% 100%;
+    /*设置左右宽度比例*/
+    height: 5px;
+    /*横条的高度*/
+}
+
+
+/*拖动块的样式*/
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /*清除系统默认样式*/
+    height: 16px;
+    /*拖动块高度*/
+    width: 16px;
+    /*拖动块宽度*/
+    background: #fff;
+    /*拖动块背景*/
+    border-radius: 50%;
+    /*外观设置为圆形*/
+    border: solid 1px #ddd;
+    /*设置边框*/
+}
+
+.pictureCenter {
+    margin: 150px auto;
+}
+
+.rc-tree li .rc-tree-node-content-wrapper{
+    padding: 1px 3px 22px 0 !important;
+}
+
+.fontWeight{
+    font-weight: bold;
+}
+
+.fontBlack {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.move{
+    cursor: move;
+}
+
+.deleteIcon{
+    width: 30px;
+    height: 30px;
+    background-color: #e4393c;
+    border-radius: 100%;
+    color: white;
+    position: absolute;
+    left: 40%;
+    cursor: pointer;
+}
+
+.padding-left-0{
+    padding-left: 0px;
+}
+
+.margin-top-10{
+    margin-top: 10px;
+}
+
+.top60p{
+    top:60%
+}
+
+.fontW{
+    font-weight: bold;
+}
+
+.upperDefaultFont{
+    text-transform: uppercase;
+}
